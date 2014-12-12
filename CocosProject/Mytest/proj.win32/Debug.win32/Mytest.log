@@ -1,0 +1,26 @@
+﻿生成启动时间为 2014/11/28 13:00:12。
+     1>项目“E:\CocosProject\Mytest\proj.win32\Mytest.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /I"D:\Cocos\frameworks\cocos2d-x\cocos\audio\include" /I"D:\Cocos\frameworks\cocos2d-x\external" /I"D:\Cocos\frameworks\cocos2d-x\external\chipmunk\include\chipmunk" /I"D:\Cocos\frameworks\cocos2d-x\extensions" /I..\Classes /I.. /I"D:\Cocos\frameworks\cocos2d-x\cocos\2d\..\..\cocos\editor-support" /I"D:\Cocos\frameworks\cocos2d-x\cocos\2d\..\..\cocos" /I"D:\Cocos\frameworks\cocos2d-x\cocos\2d\..\..\cocos\platform" /I"D:\Cocos\frameworks\cocos2d-x\cocos\2d\..\..\cocos\platform\desktop" /I"D:\Cocos\frameworks\cocos2d-x\cocos\2d\..\..\external\glfw3\include\win32" /I"D:\Cocos\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt Scene2.cpp
+         Scene2.cpp
+     1>e:\cocosproject\mytest\proj.win32\scene2.cpp(18): warning C4996: 'cocos2d::CCSizeMake': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x\cocos\deprecated\ccdeprecated.h(383) : 参见“cocos2d::CCSizeMake”的声明
+       PreLinkEvent:
+         if not exist "E:\CocosProject\Mytest\proj.win32\Debug.win32\" mkdir "E:\CocosProject\Mytest\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\Cocos\frameworks\cocos2d-x\prebuilt\win32\*.*" "E:\CocosProject\Mytest\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 41 个文件
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CocosProject\Mytest\proj.win32\Debug.win32\Mytest.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\CocosProject\Mytest\proj.win32\Debug.win32\ /LIBPATH:E:\CocosProject\Mytest\proj.win32\Debug.win32\ /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\CocosProject\Mytest\proj.win32\Debug.win32\Mytest.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CocosProject\Mytest\proj.win32\Debug.win32\Mytest.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\CocoTest.obj
+         Debug.win32\main.obj
+         Debug.win32\Scene2.obj
+         Mytest.vcxproj -> E:\CocosProject\Mytest\proj.win32\Debug.win32\Mytest.exe
+     1>已完成生成项目“E:\CocosProject\Mytest\proj.win32\Mytest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:24.50
